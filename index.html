@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and Dark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="LR_Logo_Bold-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Dark Mode Switch-->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Linda Rikkers</h1>
+            <h2>Welcome to the Website!</h2>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h1>All About Me!</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Web Innovation</h2>
+                <img src="img/undraw_inspiration_re_ivlv_light.svg" alt="" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Problem Solving</h2>
+                <img src="img/undraw_programmer_re_owql_light.svg" alt="" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>High Concept</h2>
+                <img src="img/undraw_personal_info_re_ur1n_light.svg" alt="" id="image3">
+            </div>
+        </div>
+    </section>
+    <!-- Project Section -->
+    <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>What's a little demonic ass spanking compared to starvation and investment banking</p>
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
